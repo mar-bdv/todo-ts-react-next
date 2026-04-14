@@ -1,0 +1,37 @@
+.info_container {
+    background-color: #FCFCFD;
+    border-radius: 10px;
+    width: 540px;
+    height: 298px;
+    margin-top: 11px;
+}
+
+.info_text {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 13px 40px;
+}
+
+.info_span {
+    color: #770AFB;
+}
+
+.motivation_block {
+    padding: 13px 40px;
+}
+
+/* progress bar */
+
+.progress_bar_container {
+    width: 459px;
+    height: 27px;
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress_bar_fill {
+    height: 100%;
+    background-color: #770AFB;
+    transition: width 0.3s ease;
+}
