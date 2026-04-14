@@ -92,9 +92,6 @@ const TaskList = () => {
         return true;
     });
 
-    const getFilteredIndex = (taskId: string) => {
-        return filtered.findIndex((t) => t.id === taskId);
-    };
 
     const getActualIndex = (taskId: string) => {
         return tasks.findIndex((t) => t.id === taskId);
